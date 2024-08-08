@@ -1,4 +1,5 @@
-from pymongo import MongoClient                #creating DB
+from pymongo import MongoClient  # creating DB
+
 democlient = MongoClient()
 myclient = MongoClient('localhost',27017)
 mydb = myclient["demo"]

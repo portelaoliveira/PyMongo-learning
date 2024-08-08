@@ -1,4 +1,5 @@
-from pymongo import MongoClient                #finding data
+from pymongo import MongoClient  # finding data
+
 democlient = MongoClient()
 myclient = MongoClient('localhost',27017)
 mydb = myclient["demo"]
